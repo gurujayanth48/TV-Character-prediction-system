@@ -28,7 +28,7 @@
     <script>
         function show_alert()
         {
-            alert("OK to proceed");
+            alert("Ok to proceed");
         }
     </script>
 
@@ -37,7 +37,7 @@
     <body>
         <div class="container">
            <img src="static/images/avatar.jpg">
-           <h2>Adjust sliders to match your favourite character.</h2>
+           <h2>Adjust sliders to match your fictional character.</h2>
             <form method="POST" action="{% url 'prompt' %}">
                 {% csrf_token %}
             <table>
